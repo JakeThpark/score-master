@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.cloud:spring-cloud-stream-binder-redis:1.0.0.RC1">
+    <CLASSES>
+      <root url="jar://C:/gradle-2.11/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-stream-binder-redis/1.0.0.RC1/6e624c4cc3237f6c91375803b5ee0ea05163adf/spring-cloud-stream-binder-redis-1.0.0.RC1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://C:/gradle-2.11/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-stream-binder-redis/1.0.0.RC1/2fe3bc52cbe58a204771bd9451fc18be146757ab/spring-cloud-stream-binder-redis-1.0.0.RC1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
