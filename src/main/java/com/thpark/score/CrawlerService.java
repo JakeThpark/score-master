@@ -40,9 +40,9 @@ public class CrawlerService {
 //    }
 
     public void start(){
-        for(CrawlerWorker crawler : crawlerMap.values()){
-            crawler.start();
-        }
+//        for(CrawlerWorker crawler : crawlerMap.values()){
+//            crawler.start();
+//        }
     }
     @Async
     public void initCrawler(String gameId){
