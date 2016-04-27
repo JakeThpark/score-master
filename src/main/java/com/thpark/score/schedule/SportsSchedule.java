@@ -21,7 +21,7 @@ import java.util.concurrent.Future;
  * Created by thpark on 2016-04-21.
  */
 @Service
-@EnableAsync
+//@EnableAsync
 public class SportsSchedule {
 //    @Autowired
 //    CrawlerWorker crawlerWorker;
@@ -68,8 +68,8 @@ public class SportsSchedule {
 //        System.out.println("Done !!");
 //    }
 
-    @Autowired
-    InstanceTest instanceTest;
+//    @Autowired
+//    InstanceTest instanceTest;
 
     @Scheduled(fixedRate = 1000)
     public void instanceTest(){
@@ -93,13 +93,13 @@ public class SportsSchedule {
 
     public void initCrawler(String gameId){
         System.out.println("initCrawler GameId["+gameId+"]");
-        CrawlerWorker crawlerWorker = new CrawlerWorker(gameId);
-        crawlerWorker.start();
-        try {
-            crawlerWorker.run();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        CrawlerWorker crawlerWorker = new CrawlerWorker(gameId);
+//        crawlerWorker.start();
+//        try {
+//            crawlerWorker.run();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
 
 //        crawlerWorker.run();
 //        try {

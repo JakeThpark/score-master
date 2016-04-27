@@ -8,7 +8,7 @@ import java.util.concurrent.Future;
 /**
  * Created by thpark on 2016-04-25.
  */
-@Component
+//@Component
 public interface Worker{
 
     /**
@@ -34,7 +34,7 @@ public interface Worker{
     /**
      * @return
      */
-//    @Async
+    @Async
     public  void run();
 
 }

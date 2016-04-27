@@ -10,10 +10,9 @@ import org.springframework.stereotype.Component;
 public class CrawlerWorker2 extends AbstractWorker {
     private String crawlerUrl;
 
-    @Override
-    protected void processRun() {
-
-    }
+//    @Override
+//    protected void processRun() {
+//    }
 
     public CrawlerWorker2( ){
     }
@@ -29,10 +28,10 @@ public class CrawlerWorker2 extends AbstractWorker {
     public void stop(){
     }
 
-    @Override
-    public void run() {
-        System.out.println("22222");
-    }
+//    @Override
+//    public void run() {
+//        System.out.println("22222");
+//    }
 
 //    @Override
 //    public void run() {

@@ -12,21 +12,16 @@ import java.util.concurrent.Future;
 /**
  * Created by thpark on 2016-04-21.
  */
-@Component("CrawlerWorker")
+@Service("CrawlerWorker")
 //public class CrawlerWorker {
-public class CrawlerWorker extends AbstractWorker {
-//    public String crawlerUrl;
+public class CrawlerWorker3 implements Worker{ //extends AbstractWorker {
+    public String crawlerUrl;
 
-    @Override
-    protected void processRun() {
-
-    }
-
-    public CrawlerWorker( ){
+    public CrawlerWorker3( ){
         crawlerUrl = "DEFAULT";
     }
 
-    public CrawlerWorker(String crawlerUrl ){
+    public CrawlerWorker3(String crawlerUrl ){
         this.crawlerUrl = crawlerUrl;
     }
 
@@ -40,19 +35,13 @@ public class CrawlerWorker extends AbstractWorker {
     public void registerCrawlerUrl(String crawlerUrl) {
         this.crawlerUrl = crawlerUrl;
     }
-
     @Override
     public void run() {
-        System.out.println("11111");
-    }
-//    @Async
-//    @Override
-//    public void run() {
-//        System.out.println("CrawlerWorker~~~~~~~~~~~~~run");
-//        System.out.println("this.crawlerUrl[" + crawlerUrl + "]");
+        System.out.println("CrawlerWorker~~~~~~~~~~~~~run");
+        System.out.println("this.crawlerUrl[" + crawlerUrl + "]");
 //        super.run();
-//    }
-//
+    }
+
 //    public void run() {
 //        try {
 //            testAsync();
